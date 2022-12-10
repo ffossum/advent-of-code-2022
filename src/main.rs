@@ -2,6 +2,7 @@ mod day01;
 mod day02;
 mod day03;
 mod day04;
+mod day05;
 
 fn main() {
     println!("Day 1:");
@@ -19,4 +20,7 @@ fn main() {
     println!("\nDay 4:");
     day04::part1();
     day04::part2();
+
+    println!("\nDay 5:");
+    day05::run();
 }

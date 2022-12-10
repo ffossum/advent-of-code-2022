@@ -32,6 +32,7 @@ fn real_input() -> &'static str {
     include_str!("input.txt")
 }
 
+#[allow(dead_code)]
 fn example_input() -> &'static str {
     r#"2-4,6-8
 2-3,4-5
